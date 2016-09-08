@@ -10,11 +10,11 @@
 <ng-view></ng-view>
 
 <script src="node_modules/systemjs/dist/system.js"></script>
-<script src="js/config.js"></script>
+<script src="app/appScripts/config.js"></script>
 <script type="text/javascript">
       System
-          .import('js/boot')
-          .catch( console.error.bind(console) ); // make sure any errors print to console
+          .import('app/appScripts/boot')
+          .catch( console.error.bind(console) ); // making sure any errors print to console
     </script>
 
 </body>
